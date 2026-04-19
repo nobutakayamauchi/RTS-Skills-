@@ -25,6 +25,12 @@ Validate outcomes and clearly separate verified, unverified, and assumed items.
 - Unverified
 - Assumed
 - Verification Gaps
+- Verification Log (required):
+  - Workflow
+  - Commands/Checks Run
+  - Actual Outcome
+  - Improvement Decision (`wording fix` | `sequence fix` | `output format fix` | `no change needed`)
+  - Next Action
 
 ## Guardrails
 - Never present assumptions as facts.
