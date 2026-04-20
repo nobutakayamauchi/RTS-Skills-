@@ -1,0 +1,15 @@
+skill_id: issue_to_fix_pr
+purpose: turn an issue into a minimal fix-oriented pull request workflow
+required_packs:
+  - dev_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - issue_id
+  - repository_scope
+outputs:
+  - proposed_patch_summary
+  - execution_record
+output_format: patch_plan_markdown
