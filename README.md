@@ -2,6 +2,8 @@
 
 A standalone repository for reusable, AI-agnostic operational skills.
 
+Repository position: see [docs/overview/POSITION.md](docs/overview/POSITION.md).
+
 ## Start here
 
 - Read [`rts-skills/README.md`](rts-skills/README.md) for the primary workflow guide.
