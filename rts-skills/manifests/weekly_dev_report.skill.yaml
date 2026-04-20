@@ -1,0 +1,9 @@
+skill_id: weekly_dev_report
+purpose: generate a reusable weekly development summary
+required_packs:
+  - dev_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+  - scheduled
