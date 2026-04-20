@@ -13,3 +13,4 @@ inputs:
 outputs:
   - summary_markdown
   - execution_record
+output_format: markdown_summary
