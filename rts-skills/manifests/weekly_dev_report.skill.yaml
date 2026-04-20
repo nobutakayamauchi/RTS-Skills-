@@ -7,3 +7,9 @@ outputs_to_rts:
 supported_triggers:
   - manual
   - scheduled
+inputs:
+  - reporting_period
+  - repository_scope
+outputs:
+  - summary_markdown
+  - execution_record
