@@ -1,5 +1,8 @@
 # Bugfix Bundle
 
+## Choose this bundle when
+You have a reproducible defect and need controlled diagnosis, a minimal fix surface, and explicit verification.
+
 ## Goal
 Resolve a defect with controlled diagnosis, minimal fix surface, and explicit verification.
 
