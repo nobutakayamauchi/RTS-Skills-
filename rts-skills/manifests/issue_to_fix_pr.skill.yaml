@@ -13,3 +13,4 @@ outputs:
   - proposed_patch_summary
   - execution_record
 output_format: patch_plan_markdown
+workflow_scope: issue_resolution
