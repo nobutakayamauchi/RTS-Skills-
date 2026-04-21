@@ -1,0 +1,15 @@
+skill_id: failed_build_to_patch_plan
+purpose: turn a failed build into a minimal patch plan workflow
+required_packs:
+  - dev_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - build_id
+  - repository_scope
+outputs:
+  - patch_plan_summary
+  - execution_record
+output_format: patch_plan_markdown
