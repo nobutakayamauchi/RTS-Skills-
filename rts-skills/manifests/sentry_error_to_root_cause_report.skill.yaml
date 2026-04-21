@@ -1,0 +1,15 @@
+skill_id: sentry_error_to_root_cause_report
+purpose: turn an error event into a minimal root cause report workflow
+required_packs:
+  - dev_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - error_id
+  - repository_scope
+outputs:
+  - root_cause_summary
+  - execution_record
+output_format: analysis_markdown
