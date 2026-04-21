@@ -1,0 +1,16 @@
+skill_id: important_mail_triage
+purpose: identify and summarize important emails into a minimal triage result
+required_packs:
+  - mail_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - mailbox_scope
+  - query
+outputs:
+  - triage_summary
+  - execution_record
+output_format: summary_markdown
+workflow_scope: mail_triage
