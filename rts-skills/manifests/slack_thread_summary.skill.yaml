@@ -1,0 +1,16 @@
+skill_id: slack_thread_summary
+purpose: summarize a Slack thread into a minimal reusable discussion summary
+required_packs:
+  - knowledge_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - thread_id
+  - channel_scope
+outputs:
+  - thread_summary
+  - execution_record
+output_format: summary_markdown
+summary_scope: thread_discussion
