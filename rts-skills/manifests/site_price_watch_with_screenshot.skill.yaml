@@ -1,0 +1,17 @@
+skill_id: site_price_watch_with_screenshot
+purpose: capture and summarize a site price check into a minimal watch result
+required_packs:
+  - research_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+  - scheduled
+inputs:
+  - target_url
+  - price_scope
+outputs:
+  - price_watch_summary
+  - execution_record
+output_format: summary_markdown
+workflow_scope: price_monitoring
