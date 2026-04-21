@@ -1,0 +1,17 @@
+skill_id: monthly_revenue_summary
+purpose: summarize monthly revenue into a minimal reusable financial summary
+required_packs:
+  - revenue_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+  - scheduled
+inputs:
+  - reporting_period
+  - revenue_scope
+outputs:
+  - revenue_summary
+  - execution_record
+output_format: summary_markdown
+summary_scope: revenue_reporting
