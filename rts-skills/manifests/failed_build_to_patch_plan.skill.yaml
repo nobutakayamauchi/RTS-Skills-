@@ -13,3 +13,4 @@ outputs:
   - patch_plan_summary
   - execution_record
 output_format: patch_plan_markdown
+workflow_scope: build_failure_resolution
