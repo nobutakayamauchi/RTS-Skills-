@@ -1,0 +1,15 @@
+skill_id: notion_knowledge_retrieval
+purpose: retrieve and summarize relevant knowledge from a Notion-style knowledge source
+required_packs:
+  - dev_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - query
+  - knowledge_scope
+outputs:
+  - retrieval_summary
+  - execution_record
+output_format: summary_markdown
