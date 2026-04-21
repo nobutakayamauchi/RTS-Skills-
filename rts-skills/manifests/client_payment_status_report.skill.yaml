@@ -1,0 +1,16 @@
+skill_id: client_payment_status_report
+purpose: summarize client payment status into a minimal reusable payment status report
+required_packs:
+  - revenue_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - client_scope
+  - reporting_period
+outputs:
+  - payment_status_summary
+  - execution_record
+output_format: summary_markdown
+workflow_scope: payment_status_reporting
