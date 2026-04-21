@@ -13,3 +13,4 @@ outputs:
   - root_cause_summary
   - execution_record
 output_format: analysis_markdown
+workflow_scope: error_analysis
