@@ -1,0 +1,17 @@
+skill_id: weekly_signal_digest
+purpose: condense weekly signal inputs into a minimal reusable digest summary
+required_packs:
+  - signal_feed_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+  - scheduled
+inputs:
+  - reporting_period
+  - signal_scope
+outputs:
+  - weekly_signal_summary
+  - execution_record
+output_format: summary_markdown
+workflow_scope: signal_digest

@@ -1,0 +1,16 @@
+skill_id: skill_promotion_review
+purpose: review a candidate skill for promotion readiness using minimal reusable criteria
+required_packs:
+  - talent_registry_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - candidate_skill_id
+  - review_scope
+outputs:
+  - promotion_review_summary
+  - execution_record
+output_format: review_markdown
+workflow_scope: skill_governance

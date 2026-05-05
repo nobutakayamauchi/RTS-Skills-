@@ -1,0 +1,16 @@
+skill_id: social_post_draft_review
+purpose: review a social post draft for quality, clarity, and policy-fit in a reusable checklist flow
+required_packs:
+  - social_research_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - post_draft
+  - review_policy_scope
+outputs:
+  - draft_review_summary
+  - execution_record
+output_format: review_markdown
+workflow_scope: social_quality_review

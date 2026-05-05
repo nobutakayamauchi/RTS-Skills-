@@ -1,0 +1,17 @@
+skill_id: signal_to_social_ideas
+purpose: transform validated signals into a minimal reusable set of social content ideas
+required_packs:
+  - signal_feed_pack
+  - social_research_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - signal_input_set
+  - audience_scope
+outputs:
+  - social_idea_list
+  - execution_record
+output_format: ideation_markdown
+workflow_scope: social_ideation

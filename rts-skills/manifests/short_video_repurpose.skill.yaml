@@ -1,0 +1,16 @@
+skill_id: short_video_repurpose
+purpose: repurpose source material into a minimal reusable short-video concept and cut plan
+required_packs:
+  - short_video_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - source_asset
+  - platform_scope
+outputs:
+  - short_video_plan
+  - execution_record
+output_format: plan_markdown
+workflow_scope: media_repurpose

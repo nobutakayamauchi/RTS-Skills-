@@ -1,0 +1,16 @@
+skill_id: social_content_brief
+purpose: produce a minimal reusable social content brief from selected ideas
+required_packs:
+  - social_research_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - selected_idea
+  - channel_scope
+outputs:
+  - social_brief
+  - execution_record
+output_format: brief_markdown
+workflow_scope: social_briefing

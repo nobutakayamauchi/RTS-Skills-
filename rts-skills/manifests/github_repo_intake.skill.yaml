@@ -1,0 +1,17 @@
+skill_id: github_repo_intake
+purpose: evaluate an external GitHub repository as an external talent and skill candidate in a minimal reusable intake summary
+required_packs:
+  - github_scout_pack
+  - talent_registry_pack
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - repository_url
+  - intake_scope
+outputs:
+  - repo_intake_summary
+  - execution_record
+output_format: summary_markdown
+workflow_scope: repository_intake
