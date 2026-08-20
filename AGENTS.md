@@ -3,6 +3,14 @@
 ## Scope
 This file applies to the entire repository.
 
+## Exposure / development authority
+This public repository is the historical MIT-licensed baseline and public distribution surface. It is **not** the canonical target for new proprietary or paid RTS Skills development.
+
+- Keep public documentation, inventory, free samples, intentionally open skill definitions, and reviewed exports here.
+- Do not start new paid skills, proprietary bundles, packagers, private evaluation assets, unreleased prompts, or other copy-sensitive work here.
+- If a task enters those areas, stop and route it to the authorized private canonical RTS Skills repository.
+- Public export must remain reviewed and allowlist-driven.
+
 ## Required reading
 Before editing, read:
 
