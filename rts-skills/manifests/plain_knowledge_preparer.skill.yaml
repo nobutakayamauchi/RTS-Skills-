@@ -1,0 +1,22 @@
+skill_id: plain_knowledge_preparer
+purpose: prepare an author-neutral client-neutral knowledge profile from an existing reusable workflow
+required_packs: []
+outputs_to_rts:
+  - execution_record
+supported_triggers:
+  - manual
+inputs:
+  - source_workflow
+  - frozen_outcome
+  - known_author_tuning
+  - required_constraints
+outputs:
+  - plain_profile
+  - removed_author_tuning
+  - required_client_inputs
+  - adapter_requirements
+  - unresolved_assumptions
+  - verification_notes
+  - execution_record
+output_format: structured_markdown
+workflow_scope: knowledge_adaptation
